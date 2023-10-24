@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Boot Thymeleaf Application - Form Samples - Inputs</title>
+</head>
+</head>
+<body>
+<form  th:action="@{/displayUserData}" th:object="${user}">
+<label>Enter User Id:</label>
+<input type="text" th:field="*{userId}"/>
+<label>Enter User Name:</label>
+<input type="text" th:field="*{userName}"/>
+<label>Enter the password:</label>
+<input type="text" th:field="*{userpwd"/>
+</form>
+</body>
+</html>
