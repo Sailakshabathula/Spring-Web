@@ -4,3 +4,6 @@ git remote rm origi
 git commit -m "your commit"
 $ git remote add origin https://github.com/user/repo.git
 $ git push -f origin main
+
+
+i need extra commands
